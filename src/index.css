@@ -212,6 +212,15 @@ header h1 {
         text-align: left;
     }
 }
+
+@media (max-width: 768px) {
+    .gasto {
+        flex-direction: column;
+        align-items: flex-start; 
+        margin: 5px
+    }
+
+}
 .contenido-presupuesto p.negativo,
 .contenido-presupuesto p.negativo span {
     color: #DC2626;
@@ -285,7 +294,7 @@ main {
 
 .cantidad-gasto {
     font-size: 2.4rem;
-    color: var(--negro);
+    color: var(--morado);
     font-weight: 900;
 }
 
